@@ -4,6 +4,7 @@ if [ $# = 0 ]; then
 	echo "Usage: ./dnsProbe.sh [number of ping requests]";
 	echo "If no number passed as argument, default is 4";
 	echo
+	exit 1
 	echo
 	echo
 fi;
